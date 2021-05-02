@@ -31,15 +31,17 @@ footer {
 }
 
 .name-text {
+    text-align: right;
     font-size: 16px;
     color: #7c7c7c;
     font-weight: bold;
 }
 
 h1 {
+    text-align: right;
     font-weight: bold;
     font-size: 36px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 h2 {
@@ -61,7 +63,7 @@ section {
 }
 
 .title-text{
-    font-size: 11px;
+    font-size: 16px;
     font-weight: bold;
     color: #282828;
     float: left;
@@ -79,13 +81,14 @@ section {
 }
 
 .desc-text {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .desc-subtext {
-    font-size: 10px;
+    font-size: 13px;
     color: #282828;
     padding-left: 16px;
+    line-height: 30px;
 }
 
 .title-box {
@@ -104,4 +107,12 @@ section {
 .sns-img {
     width: 12px;
     height: 12px;
+}
+
+.onder-text{
+    font-size: 15px;
+}
+
+.mmi{
+    margin-bottom: 60px;
 }
